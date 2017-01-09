@@ -1,0 +1,24 @@
+{
+  "name": "gitapi",
+  "description": "An app that uses github api to list user repositories",
+  "main": "index.js",
+  "authors": [
+    "Delink"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.17.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-validation": "jquery.validate#^1.13.0"
+  }
+}

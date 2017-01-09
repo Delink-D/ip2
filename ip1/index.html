@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GitHub || Application</title>
+		<!-- Stylescripts -->
+	    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css">
+	    <link rel="stylesheet" href="build/css/style.css">
+		
+		<!-- js scripts -->
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/moment/min/moment.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+		<script type="text/javascript" src='bower_components/jquery-validation/dist/jquery.validate.min.js'></script>
+		<script type="text/javascript" src="build/js/app.js"></script>
+
+		<script>
+		    $( "#projects" ).accordion();
+		</script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="divider goup">
+				<div class="box">
+					<h2>Get GitHub Users Repositories</h2>
+					<p>All You Need Is user Name</p>
+					<form id="form-user">
+						<div class="form-group">
+							<input type="text" name="u_name" id="u_name" placeholder="Search GitHub User Name" class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="submit" name="u_submit" value="Search User Repositories" class="btn btn-primary" id="btn_user">
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="alert alert-danger myalert" id="myalert">
+				The user name you search does not belong to GitHub Try Another User Name!
+			</div>
+			<div class="box box-repos group" id="box-repos">
+			
+			</div>
+		</div>
+	</body>
+</html>

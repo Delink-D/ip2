@@ -1,0 +1,91 @@
+$margin_c: 0 auto;
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.box {
+	width: 50%;
+	border: 1px solid #e2e2e2;
+	margin: $margin_c;
+	border-radius: 10px;
+	margin-bottom: 30px;
+
+	h2 {
+		text-align: center;
+		font-zize: 30px;
+		color: #234766;
+	}
+	p {
+		color: #5a83a5;
+		margin-top: 10px;
+	    margin-bottom: 30px;
+	    font-size: 18px;
+	    text-align: center;
+	}
+}
+.container-fluid {
+	padding: 0;
+}
+#form-user {
+	width: 70%;
+	text-align: center;
+	margin: $margin_c;
+	margin-top: 20px;
+}
+.divider {
+	padding-top: 3%;
+	background-image: linear-gradient(180deg, rgba(255,255,255,0) 60%, #fff),linear-gradient(70deg, #e0f1ff 32%, #fffae3);	
+}
+#btn_user {
+	background-image: linear-gradient(#85d063, #4f992f);
+    border-color: #519d30;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+    width: 250px;
+    margin: 20px 0;
+}
+#btn_user:hover {
+	background-image: linear-gradient(#85d063, #4f992f);
+    border-color: #519d30;
+}
+.repo_list {
+    width: 48%;
+    border: 1px solid #dcdcdc;
+    padding: 16px;
+    float: left;
+    margin-bottom: 15px;
+}
+.repo_list:first-child {
+	margin-right: 2%;
+}
+
+.box-repos {
+	padding: 16px;
+	background: light-green;
+}
+.period {
+	font-size: 14px;
+	color: #dcdcdc;
+}
+.mylbl {
+	font-weight: bold;
+}
+.repo_name,.repo_desc,.repo_date {
+	float: left;
+	width: 100%;
+}
+#repo_date {
+	color: #dcdcdc;
+
+}
+.myalert {
+	width: 50%;
+	margin: $margin_c;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
