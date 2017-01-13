@@ -1,0 +1,21 @@
+{
+  "name": "ip2",
+  "description": "A to-do-list with typescript",
+  "main": "index.js",
+  "authors": [
+    "Delink-D <delinkdesigns@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
