@@ -1,0 +1,68 @@
+body {
+	background: #e2e2e2;
+}
+hr {
+	border-top: 1px solid #e2e2e2;
+}
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.box {
+	width: 50%;
+	margin: 2% auto;
+	margin-bottom: 0;
+	background: #f4f4f4;
+	border: 1px solid #dcdcdc;
+}
+.box > h2,.box > h3 {
+	text-align: center;
+	color: #333;
+	font-family: fantasy;
+	font-weight: bolder;
+}
+.table {
+	width: 80%;
+	margin: 0 auto;
+}
+.food:hover {
+	cursor: pointer;
+	background: #e2e2e2;
+}
+#edit-holder {
+	width: 95%;
+	margin: 0 auto;
+	padding: 5px;
+}
+#edit-holder input {
+	padding: 3px;
+	width: 90%;
+}
+.item {
+	width: 49%;
+	float: left;
+	padding: 5px;
+	border: 1px solid #e2e2e2;
+}
+.itemdesc {
+	width: 98%;
+	text-align: center;
+}
+.itemdesc > input {
+	width: 80%;
+	text-align: center;
+}
+.table {
+	margin-bottom: 15px;
+}
+#my-label {
+	margin-top: 0;
+	padding: 10px 0 !important;
+}
+#my-label > label {
+	cursor: pointer;
+	padding: 5px 15px;
+	margin-left: 2%;
+}
